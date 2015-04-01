@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">We Feed (RSS)</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_feed_detail">Feed Detail</string>
+    <string name="btnAddFeed">Add Feed</string>
+    <string name="btnRemoveFeed">Remove Feed</string>
+    <string name="btnUpdateFeed">Update Feed</string>
+</resources>
