@@ -20,7 +20,7 @@ import com.abs_paradigm.wefeedrss.FeedIO.FeedProviderIO;
 
 import java.util.ArrayList;
 
-
+//
 public class MainActivity extends ActionBarActivity implements FeedListFragment.Callbacks, FeedProviderIO.DatabaseListeners {
 
     private final String TAG = getClass().getSimpleName();
