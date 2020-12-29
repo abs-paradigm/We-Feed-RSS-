@@ -18,7 +18,7 @@ resources:
 steps:
 - script: ls -d
 
-- template: test.yml@templates 
+#- template: test.yml@templates 
 - task: Gradle@2
   inputs:
     workingDirectory: ''
