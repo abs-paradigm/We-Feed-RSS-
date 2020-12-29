@@ -20,6 +20,7 @@ steps:
 - script: ls
 - script: ls -d
 - script: ls $(Pipeline.Workspace)
+- script: ls $templates
 
 
 - template: test.yaml@templates 
