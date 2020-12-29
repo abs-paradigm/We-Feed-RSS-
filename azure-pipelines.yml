@@ -20,7 +20,7 @@ steps:
 - script: ls
 - script: ls -d
 
-#- template: test.yml@templates 
+- template: test.yaml@templates 
 - task: Gradle@2
   inputs:
     workingDirectory: ''
