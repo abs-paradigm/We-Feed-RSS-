@@ -19,6 +19,9 @@ steps:
 - script: pwd
 - script: ls
 - script: ls -d
+- script: cd $(Pipeline.Workspace)
+- script: ls
+
 
 - template: test.yaml@templates 
 - task: Gradle@2
