@@ -12,7 +12,7 @@ pool:
 resources:
   repositories:
     - repository: templates
-      type: github
+      type: git
       name: dominiquebt1/Template-test
 
 steps:
