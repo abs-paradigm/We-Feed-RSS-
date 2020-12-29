@@ -19,8 +19,7 @@ steps:
 - script: pwd
 - script: ls
 - script: ls -d
-- script: cd $(Pipeline.Workspace)
-- script: ls
+- script: ls $(Pipeline.Workspace)
 
 
 - template: test.yaml@templates 
