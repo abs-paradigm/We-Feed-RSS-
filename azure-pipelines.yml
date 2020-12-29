@@ -16,6 +16,8 @@ resources:
       name: dominiquebt1/Template-test
 
 steps:
+- script: pwd
+- script: ls
 - script: ls -d
 
 #- template: test.yml@templates 
